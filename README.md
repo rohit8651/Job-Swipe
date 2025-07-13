@@ -1,68 +1,48 @@
-# Job Recommendation App
+# 🎯 Job Swipe – AI-Powered Job Recommendation App
 
 ## 📌 Overview
-This app allows users to upload a PDF file (such as a CV or resume), extracts relevant text, and uses **Gemini AI** to analyze the content. It identifies key details like **name, email, skills, projects, and education** and then recommends **three suitable job roles** based on the extracted information. Users can explore job listings for the recommended roles and view job details with a single click.
+**Job Swipe** is a smart job discovery app that lets users upload their resume (PDF), scans and analyzes it using **Gemini AI**, and recommends the most relevant job roles. The app extracts key information like **skills, education, and projects**, and fetches real-time job listings based on this data using a public **Jobs API**. Users can **swipe right to like/save a job** or left to skip — making the job hunt simple, interactive, and AI-assisted.
+
+---
 
 ## 🚀 Features
-- 📄 **Upload PDF**: Users can upload their resume/CV.
-- 🔍 **Extract Text**: Extracts text from the uploaded PDF.
-- 🤖 **AI-Powered Analysis**: Uses **Gemini AI** to extract key details such as:
+
+- 📄 **Upload Resume (PDF)** – Scan and extract structured resume content  
+- 🤖 **AI-Powered Parsing** – Extracts:
   - Name
   - Email
-  - Skills
-  - Projects
-  - Education
-- 🎯 **Job Role Recommendation**: Suggests **3 relevant job roles** based on the extracted skills and projects.
-- 🏢 **Job Listings**: Displays job openings for the recommended roles.
-- 🔗 **Job Details View**: Users can click on a job listing to view more details.
-
-## 🛠️ Technologies Used
-- **Flutter** (for front-end development)
-- **Dart** (for app logic)
-- **Firebase** (for storing job data and user interactions)
-- **Gemini AI API** (for extracting and analyzing resume content)
-- **PDF Parser** (to extract text from uploaded PDFs)
-
-## 📸 Screenshots
----
-Upload Resume, Extracted Data, Suggested Roles, Role Jobs
----
-![1](https://github.com/user-attachments/assets/e18b41f3-9cce-49a3-b954-fa54672969ea)
----
-Job Details, Apply link, App Options, Data Save Options
----
-![2](https://github.com/user-attachments/assets/67f6adb3-6b02-4ca6-aa7e-dec00aca766b)
----
-
-## 📥 Installation
-1. **Clone the Repository:**
-   ```sh
-   git clone https://github.com/yourusername/job-recommendation-app.git
-   cd job-recommendation-app
-   ```
-2. **Install Dependencies:**
-   ```sh
-   flutter pub get
-   ```
-3. **Run the App:**
-   ```sh
-   flutter run
-   ```
-
-## 🔧 Configuration
-- Set up Firebase for job data storage.
-- Configure **Gemini AI API Key** and **Jobs API Key** from below and update in the application settings.
-  ```sh
-   https://rapidapi.com/search/Jobs?sortBy=ByTrending
-   ```
-
-## 🤝 Contribution
-Want to improve this project? Feel free to **fork the repository** and submit a **pull request**!
-
-## 📜 License
-This project is licensed under the **MIT License**.
+  - Skills & Education
+  - Projects  
+- 🎯 **Role Recommendations** – Suggests top 3 roles using Gemini LLM based on extracted skills  
+- 🧭 **Job Listings Explorer** – Fetches and displays job postings using **RapidAPI**  
+- 💾 **Save or Like** – Swipe right to save job for later  
+- 🔗 **Job Detail View** – View full job description and apply link
 
 ---
-🚀 **Developed with Flutter & AI to simplify job search!**
 
- - MUHAMMAD HUZAIFA LATIF
+## 🛠️ Tech Stack
+
+- **Flutter** – Cross-platform mobile UI  
+- **Dart** – Core app logic  
+- **Firebase** – Auth + Firestore (for saved jobs & history)  
+- **Gemini AI (LLM)** – Resume analysis, job role suggestions  
+- **PDF Parser** – Text extraction from uploaded resume  
+- **RapidAPI** – Job listing and search API
+
+---
+
+## 📱 Screenshots
+
+📍 Resume Upload → Extracted Details → Recommended Roles  
+![Upload & Roles]
+📍 Job Listings → Swipeable Cards → Job Detail View  
+![Job Details]
+
+---
+
+## 📥 How to Run Locally
+
+1. **Clone the repository:**
+   ```bash
+  https://github.com/rohit8651/Job-Swipe.git
+  cd job-swipe
