@@ -1,0 +1,85 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Security: Ignore sensitive configuration files
+.env
+*.env*
+*.json
+
+# Firebase
+firebase.json
+*.firebaserc
+
+# API keys and credentials
+*.keystore
+*.jks
+**/google-services.json
+**/firebase-credentials.json
+**/app/src/main/res/values/strings.xml (if contains API keys)
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs & Debugging Files
+*.log
+*.out
+*.bak
+crashlytics/
+
+# VS Code settings
+.vscode/
+
+# Mac OS & Linux system files
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
