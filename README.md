@@ -44,5 +44,6 @@
 ## 📥 How to Run Locally
 
 1. **Clone the repository:**
-   ```bash https://github.com/rohit8651/Job-Swipe.git
+   ```bash 
+       https://github.com/rohit8651/Job-Swipe.git
        cd job-swipe
