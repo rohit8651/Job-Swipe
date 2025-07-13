@@ -35,8 +35,10 @@
 
 📍 Resume Upload → Extracted Details → Recommended Roles  
 ![Upload & Roles]
+(assets\resume_parser_screen.dart)
 📍 Job Listings → Swipeable Cards → Job Detail View  
 ![Job Details]
+(assets\job_list_screen.dart)
 
 ---
 
