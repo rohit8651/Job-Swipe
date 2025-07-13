@@ -34,17 +34,14 @@
 ## 📱 Screenshots
 
 📍 Resume Upload → Extracted Details → Recommended Roles  
-![Upload & Roles]
-(assets\resume_parser_screen.dart)
+![Upload & Roles](assets\resume_parser_screen.dart)
 📍 Job Listings → Swipeable Cards → Job Detail View  
-![Job Details]
-(assets\job_list_screen.dart)
+![Job Details](assets\job_list_screen.dart)
 
 ---
 
 ## 📥 How to Run Locally
 
 1. **Clone the repository:**
-   ```bash
-  https://github.com/rohit8651/Job-Swipe.git
-  cd job-swipe
+   ```bash https://github.com/rohit8651/Job-Swipe.git
+       cd job-swipe
