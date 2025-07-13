@@ -34,10 +34,11 @@
 ## 📱 Screenshots
 
 📍 Resume Upload → Extracted Details → Recommended Roles  
-![Upload & Roles](assets/resume_parser_screen.png)
+<img src="assets/resume_parser_screen.png" width="400"/>
 
 📍 Job Listings → Swipeable Cards → Job Detail View  
-![Job Details](assets/job_list_screen.png)
+<img src="assets/job_list_screen.png" width="400"/>
+
 
 
 ## 📥 How to Run Locally
