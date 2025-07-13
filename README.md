@@ -34,9 +34,9 @@
 ## 📱 Screenshots
 
 📍 Resume Upload → Extracted Details → Recommended Roles  
-![Upload & Roles](assets\resume_parser_screen.dart)
+![Upload & Roles](assets\resume_parser_screen.png)
 📍 Job Listings → Swipeable Cards → Job Detail View  
-![Job Details](assets\job_list_screen.dart)
+![Job Details](assets\job_list_screen.png)
 
 ---
 
